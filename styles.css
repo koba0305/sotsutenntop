@@ -43,7 +43,7 @@ body {
 .hero {
     position: relative;
     height: 60vh;
-    background-color: blue; /* 仮の背景を青に変更 */
+    background-color: blue; /* 仮背景を青に */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -124,6 +124,27 @@ p{
     padding: 2vh 5vw;
 }
 
+
+
+/* ======== 一番下のとこ(今考えたらフッターでつくりゃよかった) ======== */
+.tyosakukenn {
+    max-width: 90vw;
+    margin: auto;
+    padding: 1vh 5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+}
+ /* リンクの色を白に設定 */
+ .privacy-link {
+    color: white;
+}
+
+
+
+
 /* ボタンのスタイル */
 .button-custom {
     background-color: black;
@@ -150,7 +171,7 @@ p{
 
 
 
-/* pcの時だけ出てくる文字とかアイコン */
+/* pc版サイトの時だけ出てくる文字とかアイコン */
 .event-details {
     position: absolute;
     bottom: 25vh;
@@ -172,6 +193,8 @@ p{
     max-width: 4vw;
 }
 
+
+/* ちっさい文字*/
 .small-text {
     font-size: 0.8rem;
 }
